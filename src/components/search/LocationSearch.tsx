@@ -35,7 +35,7 @@ const LocationSearch = () => {
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: 'AIzaSyDpB03uqoC8eWmdG8KRlBdiJaHWbXmtMgE',
+    googleMapsApiKey: 'your api key here',
     libraries: ['places']
   });
 
